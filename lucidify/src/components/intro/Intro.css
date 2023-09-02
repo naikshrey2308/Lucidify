@@ -1,0 +1,10 @@
+/* #intro {
+    background: url("./intro-bg.jpg") #000000ff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+} */
+
+#intro {
+    overflow-x: hidden;
+}

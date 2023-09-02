@@ -1,0 +1,14 @@
+@import url("../../App.css");
+
+.border-picture {
+    border: lightgrey;
+    border-radius: 10px;
+    border-style: dashed;
+    border-width: 2px;
+    box-sizing: border-box;
+}
+
+.display-image {
+    border-radius: 10px;
+    border: 1px dashed grey;
+}

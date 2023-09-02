@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Philosopher&display=swap');
+
+:root {
+  --primary: #00bf63;
+  --primary-dark: #00a354;
+  --primary-selection: #00bf6344;
+  --grey-section-bg: #F8F8F8;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "Mulish";
+}
+
+.grey-div {
+  background-color: var(--grey-section-bg);
+}
+
+.header {
+  font-family: "Philosopher";
+}
+
+.text-grey {
+  color: #C0C0C0;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.bg-overlay {
+  background-color: #000000AA;
+}
+
+.navbar {
+  transition: all 0.3s;
+}
+
+::selection {
+  background: var(--primary-selection);
+}
+
+.rounded-btn {
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  outline: none;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+}
+
+.hover-btn {
+  color: var(--bs-blue);
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.hover-btn:hover {
+  background-color: #0d6efd22;
+  border: none;
+  outline: none;
+  transition: 0.3s all;
+}

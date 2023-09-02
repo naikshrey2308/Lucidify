@@ -1,0 +1,8 @@
+@import url("../../App.css");
+
+.nav-link.active {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--primary) !important;
+}
